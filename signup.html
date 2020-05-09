@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="signup.css">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  </head>
+
+  <body class="container">
+    <script type="text/javascript">
+      function fun()
+      {
+          window.open("prototype.html");
+      }
+      function change()
+      {
+        var a=document.getElementById("color");
+        var b=document.getElementById("change");
+        if(a.value.length>8)
+        {
+          b.style.color="red";
+        }
+      }
+
+    </script>
+    <div class="main">
+      <div class="heading">
+          <h1>Sign Up</h1>
+          <p>Already have account go to login page! <a href="prototype.html">login</a> </p><br>
+      </div>
+      <div class="form">
+        <form class="tab" action="http:localhost//Programs/library management system\Store_data.php" method="post">
+          Full-Name:<br><br><input class="edit" type="text" name="Name" placeholder="Enter name" required><br><br>
+          Phone Number:<br><br><input class="edit" type="text" name="Number" placeholder="enter valid number" required><br><br>
+          Birth Date:<br><br><input class="edit" type="date" name="Bith" placeholder="birthdate" required><br><br>
+          Email:<br><br><input class="edit" type="email" name="Email" placeholder="email" required><br><br>
+          Set Username:<br><br><input class="edit" type="text" name="username" placeholder="enter username" required><br><br>
+          Set password:<br><br><input class="edit" id="color" type="password" name="Password" placeholder="enter Password"  oninput="change()" required><p id="change">Length of Password must be 8</p>
+          <input class="button" type="submit" name="" value="Sign Up">     <input class="button" type="reset" name="" value="Reset">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

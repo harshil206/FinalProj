@@ -1,0 +1,94 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  opacity: 0.8;
+}
+li
+{
+  float: left;
+}
+li a
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover
+{
+  background-color: white;
+  color: black;
+}
+
+.home{
+  background-color: white;
+  color: black;
+}
+#button{
+  border: none;
+  background-color: inherit;
+  color: white;
+  padding-top: 2%;
+  cursor: pointer;
+}
+#button:hover{
+  background-color: white;
+  color: black;
+}
+#padd{
+  float: right;
+}
+.heading{
+  /* background-color: grey; */
+  color: #161162;
+  text-align: center;
+  height: 100px;
+  left: 25px;
+  margin-top: 0.5%;
+  margin-bottom: 20%;
+}
+.form{
+  text-align: center;
+  margin-top: 8%;
+  padding-top: 2%;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 18px;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+  background-color: black;
+  width:320px;
+  top: 10%;
+  left: 30%;
+  position: absolute;
+  color:white;
+}
+.edit{
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+}
+.button{
+  margin-top: 1%;
+  background-color: #08088A;
+  cursor: pointer;
+  border:none;
+  color: WHITE;
+  width: 100px;
+  height: 30px;
+  margin-bottom: 2%;
+}
+
+::placeholder{
+   color: white;
+   opacity: 0.3;
+ }
